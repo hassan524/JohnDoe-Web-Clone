@@ -1,0 +1,285 @@
+/* Media query for screens up to 1265px wide */
+@media only screen and (max-width: 1265px) {
+
+    /* Adjusts the main section container grid layout */
+    .main-section-container {
+        grid-template-columns: repeat(3, 280px);
+        grid-template-rows: 350px 350px 350px;
+        gap: 2rem;
+    }
+
+    /* Adjusts the second main section container's first row layout */
+    .second-main-section-container-row1 {
+        grid-template-columns: repeat(2, 400px);
+        grid-template-rows: 200px;
+        gap: 4rem;
+    }
+
+    /* Styles for card elements */
+    #card {
+        overflow: scroll;
+        scrollbar-width: none;
+    }
+
+    /* Card header styling */
+    #card h2 {
+        font-size: 23px;
+        top: 30px;
+    }
+
+    /* Styling for the second child of card */
+    #card :nth-child(2) {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    /* Styling for the third child of card */
+    #card :nth-child(3) {
+        text-align: center;
+        top: 15px;
+    }
+
+    /* Card hover effect */
+    #card:hover {
+        transform: scale(1);
+    }
+}
+
+/* Media query for screens up to 1118px wide */
+/* Media query for screens up to 945px wide */
+@media only screen and (max-width: 945px) {
+
+    /* Adjusts the main section container grid layout */
+    .main-section-container {
+        grid-template-columns: repeat(2, 300px);
+        grid-template-rows: 350px 350px 350px;
+        gap: 2rem;
+    }
+
+    /* Adjusts the second main section container's first row layout */
+    .second-main-section-container-row1 {
+        grid-template-columns: repeat(1, 500px);
+        grid-template-rows: 300px;
+        gap: 4rem;
+    }
+}
+
+/* Media query for screens up to 770px wide */
+
+/* Media query for screens up to 690px wide */
+@media only screen and (max-width: 690px) {
+
+    /* Adjusts the main section container grid layout */
+    .main-section-container {
+        grid-template-columns: repeat(1, 350px);
+        grid-template-rows: repeat(8, 400px);
+        gap: 2rem;
+    }
+
+    /* Adjusts the second main section container's first row layout */
+    .second-main-section-container-row1 {
+        grid-template-columns: repeat(1, 350px);
+        grid-template-rows: 300px;
+        gap: 4rem;
+    }
+
+    /* Card header styling */
+    #card h2 {
+        font-size: 26px;
+        top: 30px;
+    }
+
+    /* Styling for the second child of card */
+    #card :nth-child(2) {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    /* Styling for the third child of card */
+    #card :nth-child(3) {
+        text-align: center;
+        top: 30px;
+    }
+}
+
+/* Media query for screens up to 400px wide */
+@media only screen and (max-width: 400px) {
+
+    /* Adjusts the main section container grid layout */
+    .main-section-container {
+        grid-template-columns: repeat(1, 280px);
+        grid-template-rows: repeat(8, 450px);
+        gap: 2rem;
+    }
+
+    /* Card header styling */
+    #card h2 {
+        font-size: 23px;
+        top: 30px;
+    }
+
+    /* Styling for the second child of card */
+    #card :nth-child(2) {
+        font-size: 14px;
+        text-align: center;
+        line-height: 1.8;
+    }
+
+    /* Styling for the third child of card */
+    #card :nth-child(3) {
+        text-align: center;
+        top: 20px;
+    }
+}
+
+/* Media query for screens up to 370px wide */
+@media only screen and (max-width: 395px) {
+
+    /* Adjusts the second main section container's first row layout */
+    .second-main-section-container-row1 {
+        grid-template-columns: repeat(1, 300px);
+        grid-template-rows: 300px;
+        gap: 4rem;
+    }
+}
+
+@media only screen and (max-width:1160px) {}
+
+/* ======= styling media querys for Section one Container  ======= */
+
+@media only screen and (max-width:1143px) {
+    .section-one-container {
+        grid-template-columns: repeat(2, 350px);
+        grid-template-rows: repeat(2, 280px);
+    }
+}
+
+@media only screen and (max-width:795px) {
+
+    .section-one-container {
+        grid-template-columns: repeat(1, 450px);
+        grid-template-rows: repeat(4, 280px);
+    }
+
+}
+
+@media only screen and (max-width:520px) {
+    .section-one-container {
+        grid-template-columns: repeat(1, 350px);
+        grid-template-rows: repeat(4, 300px);
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .section-one-container {
+        grid-template-columns: repeat(1, 280px);
+        grid-template-rows: repeat(4, 300px);
+    }
+}
+
+/* ======= styling media querys for navbar and footer  ======= */
+
+@media only screen and (max-width:1250px) {
+    .header-container-menu {
+        /* right: 20px; */
+        padding-top: 30px;
+    }
+
+}
+
+@media only screen and (max-width:890px) {
+    .header-container-wrapper {
+        flex-direction: column;
+        justify-content: center;
+        padding: 1rem 0;
+
+    }
+
+    .header-container-wrapper img {
+        width: 170px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .header-container-menu a {
+        font-size: 1.2rem;
+    }
+
+    .header-container-menu {
+
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .header-container-menu a {
+        font-size: 1.1rem;
+    }
+
+    .header-container-menu {
+
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 355px) {
+    .header-container-menu a {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width:720px) {
+    .header-container-content input {
+        height: 6.5vh;
+        width: 50vh;
+    }
+}
+
+@media only screen and (max-width:508px) {
+    .header-container-content input {
+        height: 4.5vh;
+        width: 30vh;
+    }
+
+    .header-container-content {
+        /* position: relative; */
+        bottom: 8rem;
+    }
+
+    .header-container video {
+        height: 100%;
+    }
+
+}
+/* === making footer responsive ===  */
+
+  @media only screen and (max-width:1135px){
+    .footer{
+        flex-wrap: wrap;
+        gap: 9rem;
+    }
+    
+  }
+  @media only screen and (max-width: 720px){
+    .footer{
+       flex-direction: column-reverse;
+       flex-wrap: wrap;
+       align-items: center;
+       text-align: center;
+       gap: 5rem;
+    }
+    .footer-contain li{
+
+    }
+    .footer-contain h2{
+        font-size: 2rem;
+        color: aliceblue;
+    }
+    .footer-contain .icons {
+        justify-content: center;
+    }
+    .footer-container-1 :nth-child(2){
+        margin-top: 1rem;
+    }
+  }
+  
